@@ -81,7 +81,7 @@ function App() {
                   <img src="/images/travelgram.png" class="card-img-top" alt=""/>
                 </a>
               </div>
-              <div className='aboutProject'>
+              <div className='aboutProject-1'>
                 <h4 className='aboutTitle'>travelGram</h4>
                 <p className=''> travelGram was made to share travel photos. User can post photos and comment on each others post. travelGram was created using <strong>React, MongoDB, Mongoose, Express, and hosted on Heroku</strong>. It was created in a team with <a href='' target='_blank'>Andre Le</a> and <a href='' target='_blank'>Richard Yang</a>
                 </p>

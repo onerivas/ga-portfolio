@@ -13,7 +13,7 @@ function App() {
           <li className='nav-item' ><a className='nav-link' href='https://github.com/onerivas' target='_blank'>GitHub</a></li>
           <li className='nav-item' ><a className='nav-link' href='#resume'>resume</a></li>
           <li className='nav-item' ><a className='nav-link' href="mailto:one.rivas@gmail.com">
-                one.rivas@gmail</a></li>
+                one.rivas@gmail.com</a></li>
         </ul>
       </div>
       <div className='main'>
@@ -27,64 +27,64 @@ function App() {
           </div>
           <div className='project-gallery w-75 mx-auto'>
             <h1 className='secTitles text-right'>completed.projects</h1>
-            <div className='project my-3'>
-              <div class="card w-75 ">
+            <div className='project p-5 my-3'>
+              <div class="card">
                 <a href='https://doggie-to-doodoo.herokuapp.com/' target='_blank'>
-                  <img src="/images/doggieToDooDoo.png" class="card-img-top" alt=""/>
+                  <img src="/images/doggieToDooDoo.png" class="card-img-top" alt="Two todo lists for pets with a brown and white dog as the background."/>
                 </a>
-              </div>
-              <div className='aboutProject-1'>
-                <h4 className='aboutTitle'>DoggieToDooDoo</h4>
-                <p className=''> DoggieToDooDoo was made to help pet owners track their pet's day! Once you sign up you can add todo items and keep track if you've completed them. Add feeding times, potty breaks, or anything you need!! DoggieToDooDoo was made with <strong>React, React-Router, Bootstrap, Axios, and hosted on Heroku</strong>. A seperate back-end database was created for DoggieToDooDoo using <strong>Express, MongoDB, Mongoose, Passport, BCrypt, JWT, and hosted on Heroku</strong>.
-                </p>
+                <div className='card-body'>
+                  <h4 className='aboutTitle mx-2'>DoggieToDooDoo</h4>
+                  <p className='mx-2'> DoggieToDooDoo was made to help pet owners track their pet's day! Once you sign up you can add todo items and keep track if you've completed them. Add feeding times, potty breaks, or anything you need!! DoggieToDooDoo was made with <strong>React, React-Router, Bootstrap, Axios, and hosted on Heroku</strong>. A seperate back-end database was created for DoggieToDooDoo using <strong>Express, MongoDB, Mongoose, Passport, BCrypt, JWT, and hosted on Heroku</strong>.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className='project my-3'>
-              <div class="card w-75 ">
+            <div className='project p-5 my-3'>
+              <div class="card">
                 <a href='https://onerivas.github.io/NASA-app/' target='_blank'>
-                  <img src="/images/nasaPhoto.png" class="card-img-top" alt=""/>
+                  <img src="/images/nasaPhoto.png" class="card-img-top" alt="A photo gallery of planets and stars."/>
                 </a>
-              </div>
-              <div className='aboutProject'>
-                <h4 className='aboutTitle'>NASA.Photography</h4>
-                <p className=''> NASA Photography is an photo gallery collecting NASA's Picture of the Day. The images are displayed by month. This app was created using <strong>jQuery, AJAX, HTML, CSS, JavaScript, and the NASA APoD API.</strong>.
-                </p>
+                <div className='card-body'>
+                  <h4 className='aboutTitle mx-2'>NASA.Photography</h4>
+                  <p className='mx-2'> NASA Photography is an photo gallery collecting NASA's Picture of the Day. The images are displayed by month. This app was created using <strong>jQuery, AJAX, HTML, CSS, JavaScript, and the NASA APoD API</strong>.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className='project my-3'>
-              <div class="card w-75 ">
+            <div className='project p-5 my-3'>
+              <div class="card">
                 <a href='https://safe-castle-33189.herokuapp.com/home' target='_blank'>
-                  <img src="/images/movies.png" class="card-img-top" alt=""/>
+                  <img src="/images/movies.png" class="card-img-top" alt="A gallery of feature movie posters."/>
                 </a>
-              </div>
-              <div className='aboutProject-1'>
-                <h4 className='aboutTitle'>My.Movie.Collection</h4>
-                <p className=''> My Movie Collection was made to help users track their movie collection. Once you add a movie to your collection, you can show which you have lent out to friends. Never forget who has your movie again! My Movie Collection was made using <strong>EJS, HTML, CSS, Express, Express-Sessions, MongoDB, Mongoose, Method-Override, BCrypt, Bootstrap, and hosted on Heroku</strong>.
+                <div className='card-body'>
+                  <h4 className='aboutTitle mx-2'>My.Movie.Collection</h4>
+                  <p className='mx-2'> My Movie Collection was made to help users track their movie collection. Once you add a movie to your collection, you can show which you have lent out to friends. Never forget who has your movie again! My Movie Collection was made using <strong>EJS, HTML, CSS, Express, Express-Sessions, MongoDB, Mongoose, Method-Override, BCrypt, Bootstrap, and hosted on Heroku</strong>.
                 </p>
+                </div>
               </div>
             </div>
-            <div className='project my-3'>
-              <div class="card w-75 ">
+            <div className='project p-5 my-3'>
+              <div class="card">
                 <a href='https://limitless-oasis-80314.herokuapp.com/' target='_blank'>
-                  <img src="/images/mossJobs.png" class="card-img-top" alt=""/>
+                  <img src="/images/mossJobs.png" class="card-img-top" alt="mossJobs website screenshot with about and how it works information."/>
                 </a>
-              </div>
-              <div className='aboutProject'>
-                <h4 className='aboutTitle'>mossJobs</h4>
-                <p className=''> mossJobs was created so our General Assembly cohort would be able to share job oppertunities. It was created using <strong>PHP, PostgreSQL, React, Materialize, and hosted on Heroku</strong>. mossJobs was created with <a href='https://alisoncarnes-portfolio.herokuapp.com/' target='_blank'>Alison Carnes</a>.
-                </p>
+                <div className='card-body'>
+                  <h4 className='aboutTitle mx-2'>mossJobs</h4>
+                  <p className='mx-2'> mossJobs was created so our General Assembly cohort would be able to share job oppertunities. It was created using <strong>PHP, PostgreSQL, React, Materialize, and hosted on Heroku</strong>. mossJobs was created with <a href='https://alisoncarnes-portfolio.herokuapp.com/' target='_blank'>Alison Carnes</a>.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className='project my-3'>
-              <div class="card w-75 ">
+            <div className='project p-5 my-3'>
+              <div class="card">
                 <a href='https://travel-gram-app.herokuapp.com/' target='_blank'>
-                  <img src="/images/travelgram.png" class="card-img-top" alt=""/>
+                  <img src="/images/travelgram.png" class="card-img-top" alt="a photo post of a snowy mountainside with comments from another user"/>
                 </a>
-              </div>
-              <div className='aboutProject-1'>
-                <h4 className='aboutTitle'>travelGram</h4>
-                <p className=''> travelGram was made to share travel photos. User can post photos and comment on each others post. travelGram was created using <strong>React, MongoDB, Mongoose, Express, and hosted on Heroku</strong>. It was created in a team with <a href='' target='_blank'>Andre Le</a> and <a href='' target='_blank'>Richard Yang</a>
-                </p>
+                <div className='card-body'>
+                  <h4 className='aboutTitle mx-2'>travelGram</h4>
+                  <p className='mx-2'> travelGram was made to share travel photos. User can post photos and comment on each others post. travelGram was created using <strong>React, MongoDB, Mongoose, Express, and hosted on Heroku</strong>. It was created in a team with <a href='' target='_blank'>Andre Le</a> and <a href='' target='_blank'>Richard Yang.</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ function App() {
         <div className='pb-3 text-center'>
 
           <div className='aboutMe w-75 mx-auto p-4'>
-            <img src="/images/rivasResume.jpg" class="card-img-top" alt=""/>
+            <img src="/images/rivasResume.jpg" class="card-img-top" alt="A resume for Juan Carlos Rivas"/>
           </div>
         </div>
       </div>

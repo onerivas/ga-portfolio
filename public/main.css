@@ -59,7 +59,7 @@ a:hover {
   font-family: 'Anton', sans-serif;
   color: #ff5951;
 }
-.card-img-top {
+.cardTopImg {
   border-bottom: 2px solid #ff5951;
 }
 .card {
@@ -105,7 +105,7 @@ li > a > i:hover {
 @media (max-width: 750px) {
   .display-2 {
     font-size: 4em;
+    width: 90%;
+
   }
-
-
 }

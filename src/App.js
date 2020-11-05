@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mx-auto">
     <div className='d-flex justify-content-center'>
     <h1 className='name display-2'>juan.carlos.rivas</h1>
     </div>
@@ -30,7 +30,7 @@ function App() {
             <div className='project p-5 my-3'>
               <div class="card">
                 <a href='https://doggie-to-doodoo.herokuapp.com/' target='_blank'>
-                  <img src="/images/doggieToDooDoo.png" class="card-img-top" alt="Two todo lists for pets with a brown and white dog as the background."/>
+                  <img src="/images/doggieToDooDoo.png" class="card-img-top cardTopImg" alt="Two todo lists for pets with a brown and white dog as the background."/>
                 </a>
                 <div className='card-body'>
                   <h4 className='aboutTitle mx-2'>DoggieToDooDoo</h4>
@@ -42,7 +42,7 @@ function App() {
             <div className='project p-5 my-3'>
               <div class="card">
                 <a href='https://onerivas.github.io/NASA-app/' target='_blank'>
-                  <img src="/images/nasaPhoto.png" class="card-img-top" alt="A photo gallery of planets and stars."/>
+                  <img src="/images/nasaPhoto.png" class="card-img-top cardTopImg" alt="A photo gallery of planets and stars."/>
                 </a>
                 <div className='card-body'>
                   <h4 className='aboutTitle mx-2'>NASA.Photography</h4>
@@ -54,7 +54,7 @@ function App() {
             <div className='project p-5 my-3'>
               <div class="card">
                 <a href='https://safe-castle-33189.herokuapp.com/home' target='_blank'>
-                  <img src="/images/movies.png" class="card-img-top" alt="A gallery of feature movie posters."/>
+                  <img src="/images/movies.png" class="card-img-top cardTopImg" alt="A gallery of feature movie posters."/>
                 </a>
                 <div className='card-body'>
                   <h4 className='aboutTitle mx-2'>My.Movie.Collection</h4>
@@ -66,7 +66,7 @@ function App() {
             <div className='project p-5 my-3'>
               <div class="card">
                 <a href='https://limitless-oasis-80314.herokuapp.com/' target='_blank'>
-                  <img src="/images/mossJobs.png" class="card-img-top" alt="mossJobs website screenshot with about and how it works information."/>
+                  <img src="/images/mossJobs.png" class="card-img-top cardTopImg" alt="mossJobs website screenshot with about and how it works information."/>
                 </a>
                 <div className='card-body'>
                   <h4 className='aboutTitle mx-2'>mossJobs</h4>
@@ -78,7 +78,7 @@ function App() {
             <div className='project p-5 my-3'>
               <div class="card">
                 <a href='https://travel-gram-app.herokuapp.com/' target='_blank'>
-                  <img src="/images/travelgram.png" class="card-img-top" alt="a photo post of a snowy mountainside with comments from another user"/>
+                  <img src="/images/travelgram.png" class="card-img-top cardTopImg" alt="a photo post of a snowy mountainside with comments from another user"/>
                 </a>
                 <div className='card-body'>
                   <h4 className='aboutTitle mx-2'>travelGram</h4>
@@ -95,7 +95,7 @@ function App() {
         <div className='pb-3 text-center'>
 
           <div className='aboutMe w-75 mx-auto p-4'>
-            <img src="/images/rivasResume.jpg" class="card-img-top" alt="A resume for Juan Carlos Rivas"/>
+            <img src="/images/rivasResume.jpg" class="card-img-top" alt="A resume for Juan Carlos"/>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ function App() {
           <div className='w-75 mx-auto'>
             <h1 className='secTitles'>about.me</h1>
             <div className='pb-3 text-center'>
-              <p className='aboutMe w-75 mx-auto p-4'>I am a curious thinker who is excited to continue to learn new technologies and further grow as a human-centric software engineer in the rapidly evolving industry of software development. I leverage my technical knowledge of various front-end and back-end development technologies and my analytical troubleshooting skills to deliver thoughtful solutions to today’s problem. I enjoy bringing compassion, patience, and emotional intelligence to a team and helping colleagues stay motivated and feel valued. </p>
+              <p className='aboutMe w-75 mx-auto p-4'>I am a software developer who leverages my technical knowledge of various full-stack technologies and my strong troubleshooting skills to deliver thoughtful user-centric experiences. As a curious thinker, I find joy in learning new technologies and growing as a human-centric software developer. I bring compassion, empathic leadership, and emotional intelligence to a team, helping colleagues stay motivated and feel valued. </p>
               </div>
             </div>
           </div>

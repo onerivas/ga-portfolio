@@ -95,7 +95,7 @@ function App() {
         <div className='pb-3 text-center'>
 
           <div className='aboutMe w-75 mx-auto p-4'>
-            <img src="/images/rivasResume_SD.jpg" class="card-img-top" alt="A resume for Juan Carlos"/>
+            <img src="/images/rivasResume_FS.jpg" class="card-img-top" alt="A resume for Juan Carlos"/>
           </div>
         </div>
       </div>
